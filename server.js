@@ -25,8 +25,7 @@ cloudinary.config({
   api_secret: '9exIU9hCrBnUas3akRjmcMKO7jA' 
 });
 
-//upload images to cloudinary                            
-cloudinary.image("http://upload.wikimedia.org/wikipedia/commons/4/45/Spain_national_football_team_Euro_2012_final.jpg", {overlay: "glasses", gravity: "faces", width: 30, type: "fetch"})
+                   
 
 
 
@@ -52,7 +51,8 @@ MongoClient.connect('mongodb://fxadmin:Password1@ds133231.mlab.com:33231/replayt
                             console.log(data.entities.media[0].media_url)
                             
 
-
+//upload images to cloudinary         
+//replace tweetImage with link to cloudinary
 
                         // insert mongodb record
 
