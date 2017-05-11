@@ -30,20 +30,7 @@ cloudinary.image("http://upload.wikimedia.org/wikipedia/commons/4/45/Spain_natio
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-// MongoDB Client Connection - To your Local or remote MongoDB Database
-// NOTE: The name is at the end of the connection : streamland
+// MongoDB Client Connection
 MongoClient.connect('mongodb://fxadmin:Password1@ds133231.mlab.com:33231/replaytweets', function(err, db) {
     if(err) {console.log(err);}     
     
